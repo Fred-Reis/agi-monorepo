@@ -93,7 +93,7 @@ Essa tabela registra os usuários e se relaciona com a tabela de [Company](#comp
   - `validation_id`: 
   - `company_id`: 
 
-```JSON
+```
 "users" {
   String id PK
   String full_name
@@ -122,7 +122,7 @@ Essa tabela registra as empresas e se relaciona com a tabela de [User](#user)
   - `color`: 
   - `created_at`: 
 
-```JSON
+```
 "companies" {
   String id PK
   String company_name
@@ -143,7 +143,7 @@ Essa tabela registra as os provedores de e-mail públicos que não são permitid
   - `id`: 
   - `name`: 
 
-```JSON
+```
 "public_providers" {
   String id PK
   String name
