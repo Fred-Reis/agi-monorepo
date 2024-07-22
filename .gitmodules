@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Fred-Reis/agi-be-challenge
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Fred-Reis/agi-fe-challenge
