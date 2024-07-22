@@ -1,6 +1,6 @@
 <div align="center">
   <img alt="Agidesk Challenge"
-    src="frontend/src/assets/agidesk-logo.svg"
+    src="agidesk-logo.svg"
   />
 
 </div>
