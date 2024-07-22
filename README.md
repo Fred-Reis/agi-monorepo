@@ -61,8 +61,9 @@ Para maiores informações sobre o frontend desse projeto, assim como todos os d
 
 <br/>
 
-😃 Agora rode o projeto e ...
-**SEJA FELIZ!**.
+<h4 align="center">
+  😃 Agora rode o projeto e ... SEJA FELIZ!
+</h4>
 
 <h4 align="center">
   "Stay hungry stay foolish!"
@@ -85,6 +86,7 @@ Author: <a alt="Fred-Reis" href="https://github.com/Fred-Reis">Frederico Reis</a
 
 </p>
 
-Feito com ♥️
-
+<p align="center">
+  Feito com ♥️
+</p>
 
