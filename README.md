@@ -6,21 +6,19 @@
 </div>
 
 <h2 align="center">
-   Agidesk Challenge
+   Agidesk SignUp Flow
 </h2>
 
 <p align="center">
 
   <img alt="language version" src="https://img.shields.io/badge/Node-v_v20.14.0-339933?logo=node.js">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Fred-Reis/delivery-much_tech-test">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Fred-Reis/agi-monorepo">
 
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Fred-Reis/delivery-much_tech-test">
+  
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Fred-Reis/agi-monorepo">
 
-  <img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/Fred-Reis/delivery-much_tech-test">
-
-  <a href="https://www.codacy.com/manual/Fred-Reis/delivery-much_tech-test?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Fred-Reis/challenge_backEnd-05_GoStack-v2&amp;utm_campaign=Badge_Grade">
-    <img src="https://api.codacy.com/project/badge/Grade/7035120285fa4be2beb130a25a9bdf19"/></a>
+  <img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/Fred-Reis/agi-monorepo">
 
 </p>
 
@@ -30,8 +28,8 @@
 
 <p align="center">
 
-  <a href="#-sobre-esse-desafio">
-    <img src="https://img.shields.io/badge/Sobre_o_Desafio-a5a5a5"/>
+  <a href="#-sobre-esse-projeto">
+    <img src="https://img.shields.io/badge/Sobre_o_Projeto-a5a5a5"/>
   </a>&nbsp;&nbsp;
   <a href="#-requisitos">
     <img src="https://img.shields.io/badge/Requisitos-a5a5a5"/>
@@ -60,20 +58,13 @@
 
 </p>
 
-## 💡 Sobre esse desafio:
+# 💡 Sobre esse projeto:
 
-A proposta do desafio era construir uma API que recebesse ingredientes como parâmetros de entrada em uma chamada GET e retornasse uma lista de receitas, cada receita deveria seguir o seguinte formato:
+A proposta desse projeto era construir uma aplicação fullstack que permitisse ao usuário criar um usuário e enviar um email de confirmação para o usuário:
 
-```JSON
-{
-  "title": "Titulo da receita",
-  "ingredients": ["ingrediente_1", "ingrediente_2", "..."],
-  "link": "O link para a receita",
-  "gif": "Um gif relacionado a essa receita"
-}
-```
 
-## 📑 Requisitos
+
+# 📑 Backend
 
 - Utilização da API pública da [RecipePuppy](http://www.recipepuppy.com/about/api/), para obter a lista de receitas;
 - Utilização da API pública da [Giphy](https://developers.giphy.com/docs/), para gerar os Gifs;
@@ -84,48 +75,12 @@ A proposta do desafio era construir uma API que recebesse ingredientes como par�
 - A API deveria receber como parâmetro um conjunto de no máximo 3 ingredientes;
 - Foi criado um arquivo `.env`para armazenar informações sensíveis, como a chave da API do Giphy
 
-## 📐 Arquitetura:
+# 📐 Arquitetura:
 
 O projeto foi concebido utilizando a metodologia de DDD - Domain Driven Design, seguindo os princípios do SOLID e Design Patterns.
 Separando responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
 
-Estrutura:
-
-```JSON
-src
-├── __tests__
-|  └── App.spec.ts
-├── modules
-|  └── recipes
-|     ├── dtos
-|     |  └── ICreateRecipeDTO.ts
-|     ├── infra
-|     |  ├── entities
-|     |  |  └── Recipe.ts
-|     |  ├── http
-|     |  |  ├── controllers
-|     |  |  |  └── RecipesController.ts
-|     |  |  └── routes
-|     |  |     └── recipe.routes.ts
-|     |  └── repositories
-|     |     └── RecipesRepository.ts
-|     ├── repositories
-|     |  └── IRecipesRepository.ts
-|     └── services
-|        ├── CreateGifsService.ts
-|        ├── CreateRecipeService.ts
-|        └── ImportRecipesService.ts
-└── shared
-   ├── errors
-   |  └── AppError.ts
-   └── infra
-      └── http
-         ├── routes
-         |  └── index.ts
-         └── server.ts
-```
-
-## 🔥 Funcionalidades:
+# 🔥 Funcionalidades:
 
 A API possui apenas um endpoint, que deve respeitar a seguinte chamada:
 
@@ -156,7 +111,7 @@ A resposta de requisição deveria ter como estrutura: um array com as palavras 
 }
 ```
 
-## 🧪 Testes:
+# 🧪 Testes:
 
 Foram implementados testes unitários utilizando [Jest](https://jestjs.io/);
 
@@ -170,7 +125,7 @@ Os detalhes do teste serão apresentados no seu console.
 
 Também será gerado automáticamente na raiz do seu projeto uma pasta chamada `coverage`, dentro dela terá uma outra pasta chamada `Lcov-report`. Dentro dessa pasta terá um arquivo `index.html` abra ele no seu browser e tenha acesso a mais detalhes dos testes executados.
 
-## 🛠 Tecnologias e Ferramentas:
+# 🛠 Tecnologias e Ferramentas:
 
 Algumas das tecnologias e ferramentas utilizadas nesse projeto.
 
@@ -183,7 +138,7 @@ Algumas das tecnologias e ferramentas utilizadas nesse projeto.
 - Express;
 - Jest;
 
-## 🏁 Executando o projeto:
+# 🏁 Executando o projeto:
 
 1 - Para rodar pela primeira vez o seu projeto será necessário a criação de uma pasta.
 
@@ -217,7 +172,7 @@ $ npm dev:server
 
 > Recomendo o uso do [Insomnia](https://insomnia.rest/download/) para testar as chamadas ao servidor
 
-## 🐳 Configurando o Docker
+# 🐳 Configurando o Docker
 
 O projeto possui um arquivo chamado `Dockerfile` que possui as configurações para o deploy do projeto em um container do [Docker](https://www.docker.com/), ele é quem irá passar todos parâmetros que o Docker utilizará para criar nossa imagem.
 
