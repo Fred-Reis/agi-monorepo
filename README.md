@@ -58,6 +58,7 @@ Para maiores informações sobre o backend desse projeto, assim como todos os de
 Para maiores informações sobre o frontend desse projeto, assim como todos os detalhes sobre o mesmo em um passo a passo para baixar e excutá-lo localmente acesse o link a seguir [Repositório Frontend](https://github.com/Fred-Reis/agi-fe-challenge/?tab=readme)
 
 
+
 <br/>
 
 😃 Agora rode o projeto e ...
