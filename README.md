@@ -29,16 +29,16 @@
 <p align="center">
 
   <a href="#-sobre-esse-projeto">
-    <img src="https://img.shields.io/badge/Sobre_o_projeto-a5a5a5"/>
+    Sobre o projeto
   </a>&nbsp;&nbsp;
   <a href="#-backend">
-    <img src="https://img.shields.io/badge/Backend-a5a5a5"/>
+    Backend
   </a>&nbsp;&nbsp;
   <a href="#-frontend">
-    <img src="https://img.shields.io/badge/Frontend-a5a5a5"/>
+    Frontend
   </a>&nbsp;&nbsp;
   <a href="#author-frederico-reis">
-    <img src="https://img.shields.io/badge/Author-a5a5a5"/>
+    Author
   </a>
 
 </p>
