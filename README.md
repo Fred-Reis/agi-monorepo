@@ -34,16 +34,16 @@
   <a href="#-backend">
     <img src="https://img.shields.io/badge/Backend-a5a5a5"/>
   </a>&nbsp;&nbsp;
-  <a href="##-arquitetura">
+  <a href="#-arquitetura">
     <img src="https://img.shields.io/badge/Arquitetura-a5a5a5"/>
   </a>&nbsp;&nbsp;
-  <a href="##-banco-de-dados">
+  <a href="#-banco-de-dados">
     <img src="https://img.shields.io/badge/Banco_de_dados-a5a5a5"/>
   </a>&nbsp;&nbsp;
   <a href="#-executando-o-projeto">
     <img src="https://img.shields.io/badge/Executando_Projeto-a5a5a5"/>
   </a>&nbsp;&nbsp;
-  <a href="##-configurando-o-seu-banco-de-dados-localmente">
+  <a href="#-configurando-o-seu-banco-de-dados-localmente">
     <img src="https://img.shields.io/badge/Configurando_o_seu_banco_de_dados_localmente-a5a5a5"/>
   </a>&nbsp;&nbsp;
   <a href="#-testes">
