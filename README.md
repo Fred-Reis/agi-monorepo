@@ -31,14 +31,11 @@
   <a href="#-sobre-esse-projeto">
     <img src="https://img.shields.io/badge/Sobre_o_Projeto-a5a5a5"/>
   </a>&nbsp;&nbsp;
-  <a href="#-requisitos">
-    <img src="https://img.shields.io/badge/Requisitos-a5a5a5"/>
-  </a>&nbsp;&nbsp;
   <a href="#-arquitetura">
     <img src="https://img.shields.io/badge/Arquitetura-a5a5a5"/>
   </a>&nbsp;&nbsp;
-  <a href="-funcionalidades">
-    <img src="https://img.shields.io/badge/Funcionalidades-a5a5a5"/>
+  <a href="#-banco-de-dados">
+    <img src="https://img.shields.io/badge/Banco-de-Dados-a5a5a5"/>
   </a>&nbsp;&nbsp;
   <a href="#-testes">
     <img src="https://img.shields.io/badge/Testes-a5a5a5"/>
@@ -66,21 +63,12 @@ A proposta desse projeto era construir uma aplicação fullstack que permitisse 
 
 # 📑 Backend
 
-- Utilização da API pública da [RecipePuppy](http://www.recipepuppy.com/about/api/), para obter a lista de receitas;
-- Utilização da API pública da [Giphy](https://developers.giphy.com/docs/), para gerar os Gifs;
-- Para obter o gif no Giphy, deveria ser utilizado o título de cada receita;
-- Os ingredientes recebidos pelo RecipePuppy são recebidos em String, e deveriam ser organizados em um array ordenado por ordem alfabética;
-- Era necessário informar ao usuário caso algum dos serviçoes externos estivem indisponíveis;
-- Fazer o Deploy do projeto no Docker;
-- A API deveria receber como parâmetro um conjunto de no máximo 3 ingredientes;
-- Foi criado um arquivo `.env`para armazenar informações sensíveis, como a chave da API do Giphy
-
-# 📐 Arquitetura:
+## 📐 Arquitetura:
 
 O projeto foi concebido utilizando a metodologia de DDD - Domain Driven Design, seguindo os princípios do SOLID e Design Patterns.
 Separando responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
 
-# 🔥 Funcionalidades:
+## 🔥 Banco de dados:
 
 A API possui apenas um endpoint, que deve respeitar a seguinte chamada:
 
