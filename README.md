@@ -51,7 +51,7 @@ A proposta desse projeto é construir uma aplicação fullstack que permitisse c
 
 # 📑 Backend
 
-Para maiores informações sobre o backend desse projeto, assim como todos os detalhes sobre o mesmo e um passo a passo para baixar e excutá-lo localmente acesse o link a seguir [Repositório Backend](https://github.com/Fred-Reis/agi-be-challenge/?tab=readme)
+Para maiores informações sobre o backend desse projeto, assim como todos os detalhes sobre o mesmo e um passo a passo para baixar e executá-lo localmente acesse o link a seguir [Repositório Backend](https://github.com/Fred-Reis/agi-be-challenge/?tab=readme)
 
 # 🖥 Frontend
 
