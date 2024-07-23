@@ -45,13 +45,13 @@
 
 # 💡 Sobre esse projeto
 
-A proposta desse projeto era construir uma aplicação fullstack que permitisse criar um usuário e enviar um email de confirmação para autenticação:
+A proposta desse projeto é construir uma aplicação fullstack que permitisse criar um usuário e enviar um email de confirmação para autenticação:
 
 <br/>
 
 # 📑 Backend
 
-Para maiores informações sobre o backend desse projeto, assim como todos os detalhes sobre o mesmo em um passo a passo para baixar e excutá-lo localmente acesse o link a seguir [Repositório Backend](https://github.com/Fred-Reis/agi-be-challenge/?tab=readme)
+Para maiores informações sobre o backend desse projeto, assim como todos os detalhes sobre o mesmo e um passo a passo para baixar e excutá-lo localmente acesse o link a seguir [Repositório Backend](https://github.com/Fred-Reis/agi-be-challenge/?tab=readme)
 
 # 🖥 Frontend
 
